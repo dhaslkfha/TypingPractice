@@ -12,10 +12,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "TypingTrainer",
-            path: "Sources/TypingTrainer",
-            resources: [
-                .process("Resources")
-            ]
+            path: "Sources/TypingTrainer"
         )
     ]
 )
